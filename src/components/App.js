@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import Calculator from './Calculator';
-import './App.css';
+import '../styles/App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="app">
-        <h1>Calculator App</h1>
+      <main className="app">
+        <h1>React Calculator App</h1>
         <Calculator />
-      </div>
+      </main>
     );
   }
 }
